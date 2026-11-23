@@ -19,3 +19,8 @@
   from = "/health"
   to = "/.netlify/functions/health"
   status = 200
+
+[[redirects]]
+  from = "/purchase-status"
+  to = "/.netlify/functions/purchase-status"
+  status = 200
